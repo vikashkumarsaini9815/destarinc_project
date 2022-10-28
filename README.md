@@ -2,7 +2,7 @@
 
 # Setup project
 ```
-git clone https://github.com/vikashkumarsaini9815/car_rental_company.git
+git clone https://github.com/vikashkumarsaini9815/destarinc_project.git
 ```
 #  installation
 ``` 
