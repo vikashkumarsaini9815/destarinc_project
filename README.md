@@ -1,4 +1,4 @@
-# destarinc_project
+# Destarinc_project
 
 # Setup project
 ```
