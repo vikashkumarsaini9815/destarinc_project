@@ -18,6 +18,7 @@ uvicorn main:app --reload
 ```
 # fast api for get address near by 
 ```
+```
 http://127.0.0.1:8000/docs#/default/fatch_address_address_get
 Request Body :
         
@@ -25,9 +26,12 @@ Response Body :
         [{"id":1, "latitude":"42.3456", "longitude":"78.4567"},
         {"id":2, "latitude":"12.3456", "longitude":"82.4567"},
         {"id":3, "latitude":"17.3456", "longitude":"84.4567"}]
+```
 
-
+```
 # fast api for create_address
+```
+
 ```
 127.0.0.1:8000/docs#/default/insert_address
 Request Body :
@@ -35,7 +39,10 @@ Request Body :
 Response Body :
   {"id":1, "latitude":"12.3456", "longitude":"88.4567"}
 ```
+
+```
 # fast api for update_address
+```
 ```
 http://127.0.0.1:8000/docs#/default/update_address_address__address_id__put
 Request Body : 
@@ -43,7 +50,10 @@ Request Body :
 Response Body :
        {"id":1, "latitude":"12.3456", "longitude":"88.4567"}
 ```
+
+```
 # fast api for delete
+```
 ```
 http://127.0.0.1:8000/docs#/default/delete_address_address__address_id__delete
 Request Body :
@@ -51,8 +61,9 @@ Request Body :
 Response Body :
         {"address of id 1 has been deleted":True}
 ```
-
+```
 # fast api for get address near by 
+```
 ```
 http://127.0.0.1:8000/docs#/default/custom_address_get_address_post
 Request Body :
